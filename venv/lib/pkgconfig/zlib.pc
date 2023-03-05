@@ -1,0 +1,13 @@
+prefix=/Users/nirbhaysedha/Documents/project/venv
+exec_prefix=/Users/nirbhaysedha/Documents/project/venv
+libdir=/Users/nirbhaysedha/Documents/project/venv/lib
+sharedlibdir=/Users/nirbhaysedha/Documents/project/venv/lib
+includedir=/Users/nirbhaysedha/Documents/project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
